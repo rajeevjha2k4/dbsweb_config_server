@@ -1,0 +1,14 @@
+version: '2'
+services:
+  configserver-app:
+    image: configserver
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:mariadb://configserver-mariadb:3306/configserver
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+  configserver-mariadb:
+    extends:
+      file: mariadb.yml
+      service: configserver-mariadb

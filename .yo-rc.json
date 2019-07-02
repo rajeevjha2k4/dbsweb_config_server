@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "configserver",
+    "packageName": "com.dbs.common.config",
+    "packageFolder": "com/dbs/common/config",
+    "serverPort": 8083,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NmUzOTliMzkzMjY1Nzc3MjRjMzEyODgwNjFlMzAyZjZiZTAwMzU0YzhhMjMxNGRmNzhjNjExYWUzNzZjNjc2N2U3NGJjMDIyMDgxZTE1NmQzMTc4NzcwNDBiNzIwMjUwZGM4NzQwNzg4MGU1ZTdiNDQ1NmI1NGViNDg2NWY4YmI=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "rajeevjha2k4",
+  "repository-name": "dbsweb_config_server"
+}
